@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.text {
+    color: var(--secondary-color);
+}
