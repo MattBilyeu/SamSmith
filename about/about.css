@@ -9,3 +9,35 @@ main {
 .text {
     color: var(--secondary-color);
 }
+
+#desktopTitle,
+#mobileTitle {
+    color: var(--secondary-color)
+}
+
+#desktopTitle {
+    display: none;
+}
+
+@media screen and (min-width: 850px) {
+    main {
+        display: block;
+        width: 75%;
+        text-align: center;
+        margin: 0 auto 0 auto
+    }
+
+    #desktopTitle {
+        display: block;
+    }
+
+    #mobileTitle {
+        display: none;
+    }
+
+    .image {
+        float: right;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+}
